@@ -1,0 +1,200 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Playfair Display";
+}
+html body p,
+html body a {
+  font-size: 1.6rem;
+  margin: 1em 0;
+  line-height: 2em;
+}
+html body .my-name {
+  font-size: 14vw;
+  font-weight: 600;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+@media only screen and (min-width: 601px) {
+  html body .my-name {
+    font-size: 15vw;
+  }
+}
+html body main {
+  max-width: 600px;
+  margin: 1em;
+}
+@media only screen and (min-width: 601px) {
+  html body main {
+    margin: 5vh 10vw;
+  }
+}
+html body .inspired-by {
+  text-align: right;
+  margin-right: 2em;
+}
+html body .socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 14vw;
+}
+@media only screen and (min-width: 428px) {
+  html body .socials {
+    margin-bottom: 0;
+  }
+}
+html body .socials a {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  body a {
+    color: #ffffff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  body a {
+    color: #000000;
+  }
+}/*# sourceMappingURL=style.css.map */
